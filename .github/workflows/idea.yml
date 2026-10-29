@@ -1,0 +1,56 @@
+name: Recipe idea
+
+# Open an issue titled "Suggest: eggs, tomatoes, onion" (the site's "Ask the AI" button does this)
+# and the AI replies with a recipe, which is also added to the site. Only the repo owner's issues
+# are answered, so nobody else can use up the AI quota.
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+  actions: write
+
+concurrency:
+  group: yumsum-data
+  cancel-in-progress: false
+
+jobs:
+  idea:
+    if: startsWith(github.event.issue.title, 'Suggest:') && github.event.issue.user.login == github.repository_owner
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      ISSUE: ${{ github.event.issue.number }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Ask the AI
+        run: node scripts/idea.ts
+        env:
+          IDEA_TEXT: ${{ github.event.issue.title }}
+          IDEA_ID: ${{ github.event.issue.number }}
+          SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
+          REPLY_FILE: ${{ runner.temp }}/reply.md
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          AI_BASE_URL: ${{ vars.AI_BASE_URL }}
+          AI_MODEL: ${{ vars.AI_MODEL }}
+
+      - name: Save it and publish
+        run: |
+          git config user.name "yumsum-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ideas.json
+          git commit -m "Recipe idea #$ISSUE"
+          git pull --rebase && git push
+          gh issue comment "$ISSUE" --body-file "$RUNNER_TEMP/reply.md"
+          gh issue close "$ISSUE"
+          gh workflow run update.yml
+
+      - name: Report a failure on the issue
+        if: failure()
+        run: gh issue comment "$ISSUE" --body "Sorry, the AI couldn't make a recipe this time. Details are in the Actions tab."

@@ -1,0 +1,46 @@
+name: Add pins
+
+# Open an issue titled "Add pins …" with Pinterest links in it (the site's "Add older pins" box does
+# this) and the links are added to extra-pins.txt. Only the repo owner's issues are used.
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+  actions: write
+
+concurrency:
+  group: yumsum-data
+  cancel-in-progress: false
+
+jobs:
+  add:
+    if: startsWith(github.event.issue.title, 'Add pins') && github.event.issue.user.login == github.repository_owner
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      ISSUE: ${{ github.event.issue.number }}
+      BODY: ${{ github.event.issue.body }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Add the links to extra-pins.txt
+        run: |
+          printf '%s\n' "$BODY" | grep -oiE 'https?://([a-z]+\.)?(pinterest\.[a-z.]+/pin/[^[:space:]]+|pin\.it/[^[:space:]]+)' > "$RUNNER_TEMP/new.txt" || true
+          count=$(wc -l < "$RUNNER_TEMP/new.txt")
+          if [ "$count" -eq 0 ]; then
+            gh issue comment "$ISSUE" --body "I couldn't find any Pinterest pin links in this issue."
+            gh issue close "$ISSUE"
+            exit 0
+          fi
+          cat "$RUNNER_TEMP/new.txt" >> extra-pins.txt
+          awk 'NF == 0 || !seen[$0]++' extra-pins.txt > "$RUNNER_TEMP/all.txt" && mv "$RUNNER_TEMP/all.txt" extra-pins.txt
+          git config user.name "yumsum-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add extra-pins.txt
+          git diff --cached --quiet || (git commit -m "Add pins from #$ISSUE" && git pull --rebase && git push)
+          gh issue comment "$ISSUE" --body "Added $count link(s). They'll be on the site in a few minutes (only pins you saved yourself are used)."
+          gh issue close "$ISSUE"
+          gh workflow run update.yml
