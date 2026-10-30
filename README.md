@@ -13,7 +13,7 @@ Your YumSum Pinterest board as a cookbook, hosted free on GitHub.
 
 Everything runs on GitHub, with no server:
 
-- **GitHub Actions** (`.github/workflows/update.yml`) runs every 3 hours. `scripts/sync.ts` reads your
+- **GitHub Actions** (`.github/workflows/update.yml`) runs every hour. `scripts/sync.ts` reads your
   public board, saves new pins to `data/pins.json`, and has the AI write recipes for new pins into
   `data/recipes.json`. Then it rebuilds the site.
 - **GitHub Pages** serves the site. Scaling, unit conversion, calories and pantry matching all happen

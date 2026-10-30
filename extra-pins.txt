@@ -1,5 +1,5 @@
 # Pinterest only shares a board's newest ~50 pins. To add older ones, paste their links below,
 # one per line (pinterest.com/pin/… or pin.it/… links). Only pins you saved yourself are used.
-# After saving, they appear on the site within 3 hours, or right away if you run the
+# After saving, they appear on the site within an hour, or right away if you run the
 # "Update YumSum" workflow from the Actions tab.
 
