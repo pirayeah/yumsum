@@ -48,6 +48,7 @@ export async function askJson(system: string, parts: Part[], schema: object): Pr
   ];
 
   let lastError = "";
+  let busyRetries = 2;
   for (let i = 0; i < attempts.length; i++) {
     const a = attempts[i];
     if (models.length === 0) throw new NoModelError("None of the AI models are available for this key.");
@@ -66,6 +67,12 @@ export async function askJson(system: string, parts: Part[], schema: object): Pr
       }),
     });
     if (res.status === 429) throw new RateLimitError("AI rate limit reached");
+    // A provider having a moment (e.g. "content safety screening is temporarily unavailable").
+    if ((res.status === 502 || res.status === 503) && busyRetries-- > 0) {
+      await new Promise((r) => setTimeout(r, 15_000));
+      i--;
+      continue;
+    }
     if (res.status === 404) {
       console.log(`  (model ${models.shift()} isn't available for this key; trying the next one)`);
       i = -1; // start this model's attempts from the top
