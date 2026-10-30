@@ -11,6 +11,8 @@ const RECIPES = "data/recipes.json";
 const EXTRA = "extra-pins.txt";
 // Free AI tiers allow a few dozen requests an hour; the rest wait for the next run.
 const MAX_PER_RUN = Number(process.env.MAX_RECIPES_PER_RUN) || 25;
+// Stop starting new recipes after this long, so each run saves and publishes in a predictable time.
+const STOP_AT = Date.now() + (Number(process.env.MAX_MINUTES) || 15) * 60_000;
 
 const username = (process.env.PINTEREST_USERNAME || "").trim().replace(/^@/, "").toLowerCase();
 const board = (process.env.PINTEREST_BOARD || "yumsum").trim().toLowerCase();
@@ -47,11 +49,17 @@ if (!process.env.AI_API_KEY) {
 
 let made = 0;
 for (const pin of todo.slice(0, MAX_PER_RUN)) {
+  if (Date.now() > STOP_AT) {
+    console.log("Time's up for this run; the rest will be done next run.");
+    break;
+  }
+  const started = Date.now();
   try {
     recipes[pin.id] = await extractRecipe(pin);
     write(RECIPES, recipes); // save as we go, so a crash keeps earlier work
     made++;
-    console.log(`✓ ${pin.id} ${recipes[pin.id].title_en}  [${currentModel()}]`);
+    const secs = Math.round((Date.now() - started) / 1000);
+    console.log(`✓ ${pin.id} ${recipes[pin.id].title_en}  [${currentModel()}, ${secs}s]`);
   } catch (err) {
     if (err instanceof RateLimitError) {
       console.log("AI rate limit reached; the rest will be done next run.");

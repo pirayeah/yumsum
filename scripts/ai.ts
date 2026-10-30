@@ -54,7 +54,7 @@ export async function askJson(system: string, parts: Part[], schema: object): Pr
     const res = await fetch(`${BASE_URL}/chat/completions`, {
       method: "POST",
       headers: { Authorization: `Bearer ${process.env.AI_API_KEY}`, "Content-Type": "application/json" },
-      signal: AbortSignal.timeout(300_000),
+      signal: AbortSignal.timeout(120_000),
       body: JSON.stringify({
         model: models[0],
         max_tokens: 16000,
