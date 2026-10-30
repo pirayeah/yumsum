@@ -2,7 +2,7 @@
 // yet into data/recipes.json. Runs in the GitHub Action every few hours; locally: `npm run sync`.
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import type { Pin, Recipe } from "../lib/types.ts";
-import { RateLimitError } from "./ai.ts";
+import { currentModel, NoModelError, RateLimitError } from "./ai.ts";
 import { boardPins, pinsFromLinks } from "./pinterest.ts";
 import { extractRecipe } from "./recipe.ts";
 
@@ -51,10 +51,14 @@ for (const pin of todo.slice(0, MAX_PER_RUN)) {
     recipes[pin.id] = await extractRecipe(pin);
     write(RECIPES, recipes); // save as we go, so a crash keeps earlier work
     made++;
-    console.log(`✓ ${pin.id} ${recipes[pin.id].title_en}`);
+    console.log(`✓ ${pin.id} ${recipes[pin.id].title_en}  [${currentModel()}]`);
   } catch (err) {
     if (err instanceof RateLimitError) {
       console.log("AI rate limit reached; the rest will be done next run.");
+      break;
+    }
+    if (err instanceof NoModelError) {
+      console.log(`${err.message} Set AI_MODEL to a model your key can use.`);
       break;
     }
     console.log(`✗ ${pin.id}: ${err instanceof Error ? err.message : err}`);

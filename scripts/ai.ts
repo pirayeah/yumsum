@@ -1,8 +1,30 @@
-// Any OpenAI-compatible chat API: NVIDIA (default, free Kimi K2.6), Moonshot, OpenRouter, Hugging Face…
+// Any OpenAI-compatible chat API: NVIDIA's free tier by default, or Moonshot, OpenRouter, Hugging Face…
 const BASE_URL = (process.env.AI_BASE_URL || "https://integrate.api.nvidia.com/v1").replace(/\/$/, "");
-const MODEL = process.env.AI_MODEL || "moonshotai/kimi-k2.6";
+
+// Tried in order. NVIDIA lists some models that aren't enabled for every account (404), so a model
+// that 404s is dropped and the next one is used for the rest of the run. Override with a
+// comma-separated AI_MODEL.
+const models = (
+  process.env.AI_MODEL ||
+  [
+    "moonshotai/kimi-k2.6",
+    "google/gemma-4-31b-it",
+    "mistralai/mistral-large-4-1t-a52b",
+    "nvidia/nemotron-3.5-super-vl-120b-a12b",
+    "deepseek-ai/deepseek-v4.1-flash",
+  ].join(",")
+)
+  .split(",")
+  .map((m) => m.trim())
+  .filter(Boolean);
 
 export class RateLimitError extends Error {}
+/** No model on the list is usable with this key; retrying this run is pointless. */
+export class NoModelError extends Error {}
+
+export function currentModel() {
+  return models[0];
+}
 
 type Part = { type: "text"; text: string } | { type: "image_url"; image_url: { url: string } };
 
@@ -26,13 +48,15 @@ export async function askJson(system: string, parts: Part[], schema: object): Pr
   ];
 
   let lastError = "";
-  for (const a of attempts) {
+  for (let i = 0; i < attempts.length; i++) {
+    const a = attempts[i];
+    if (models.length === 0) throw new NoModelError("None of the AI models are available for this key.");
     const res = await fetch(`${BASE_URL}/chat/completions`, {
       method: "POST",
       headers: { Authorization: `Bearer ${process.env.AI_API_KEY}`, "Content-Type": "application/json" },
       signal: AbortSignal.timeout(300_000),
       body: JSON.stringify({
-        model: MODEL,
+        model: models[0],
         max_tokens: 16000,
         messages: [
           { role: "system", content: system },
@@ -42,6 +66,11 @@ export async function askJson(system: string, parts: Part[], schema: object): Pr
       }),
     });
     if (res.status === 429) throw new RateLimitError("AI rate limit reached");
+    if (res.status === 404) {
+      console.log(`  (model ${models.shift()} isn't available for this key; trying the next one)`);
+      i = -1; // start this model's attempts from the top
+      continue;
+    }
     if (res.status === 400 || res.status === 422) {
       lastError = await res.text();
       continue;
