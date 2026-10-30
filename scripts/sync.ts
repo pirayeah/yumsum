@@ -12,7 +12,7 @@ const EXTRA = "extra-pins.txt";
 // Free AI tiers allow a few dozen requests an hour; the rest wait for the next run.
 const MAX_PER_RUN = Number(process.env.MAX_RECIPES_PER_RUN) || 25;
 // Stop starting new recipes after this long, so each run saves and publishes in a predictable time.
-const STOP_AT = Date.now() + (Number(process.env.MAX_MINUTES) || 15) * 60_000;
+const STOP_AT = Date.now() + (Number(process.env.MAX_MINUTES) || 20) * 60_000;
 
 const username = (process.env.PINTEREST_USERNAME || "").trim().replace(/^@/, "").toLowerCase();
 const board = (process.env.PINTEREST_BOARD || "yumsum").trim().toLowerCase();
