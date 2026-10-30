@@ -36,8 +36,9 @@ function parseJson(text: string): unknown {
 }
 
 // Free tiers can take minutes per recipe, so give up only when the AI goes quiet, not when it's slow.
-const IDLE_MS = 120_000; // no new text for this long (including waiting in the queue)
-const MAX_MS = 360_000; // hard cap per request
+const IDLE_MS = 300_000; // no new text for this long. NVIDIA screens the whole answer before sending any of it,
+// so the first text can take minutes to arrive.
+const MAX_MS = 420_000; // hard cap per request
 
 /** Reads a streamed (server-sent events) chat completion into its text and finish reason. */
 async function readStream(res: Response, onActivity: () => void) {
@@ -88,9 +89,9 @@ export async function askJson(system: string, parts: Part[], schema: object): Pr
     let idle: ReturnType<typeof setTimeout> | undefined;
     const bump = () => {
       clearTimeout(idle);
-      idle = setTimeout(() => ctl.abort(new Error("AI stopped responding for 2 minutes")), IDLE_MS);
+      idle = setTimeout(() => ctl.abort(new Error("AI stopped responding for 5 minutes")), IDLE_MS);
     };
-    const cap = setTimeout(() => ctl.abort(new Error("AI took more than 6 minutes")), MAX_MS);
+    const cap = setTimeout(() => ctl.abort(new Error("AI took more than 7 minutes")), MAX_MS);
     bump();
 
     try {
