@@ -28,7 +28,14 @@ jobs:
       - run: npm ci
 
       - name: Read the board and write new recipes
-        run: node scripts/sync.ts
+        # The report also goes on the run's summary page, so you can see what happened without the logs.
+        run: |
+          set +e
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          node scripts/sync.ts 2>&1 | tee -a "$GITHUB_STEP_SUMMARY"
+          status=${PIPESTATUS[0]}
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          exit $status
         continue-on-error: true # if Pinterest or the AI is down, still publish what we have
         env:
           PINTEREST_USERNAME: ${{ vars.PINTEREST_USERNAME }}
