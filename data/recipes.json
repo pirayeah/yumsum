@@ -1512,5 +1512,514 @@
   ],
   "estimated": true,
   "source_url": null
+ },
+ "651192427418063188": {
+  "title_en": "Pumpkin Spice Latte",
+  "title_fa": "لته پامپکین اسپایس (قهوه کدو تنبل)",
+  "category": "drink",
+  "servings": 1,
+  "time_minutes": 10,
+  "ingredients": [
+   {
+    "name_en": "Espresso",
+    "name_fa": "اسپرسو",
+    "amount": 60,
+    "unit": "ml",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 5,
+    "protein_g": 0.2,
+    "carbs_g": 0.8,
+    "fat_g": 0.1
+   },
+   {
+    "name_en": "Milk",
+    "name_fa": "شیر",
+    "amount": 240,
+    "unit": "ml",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 150,
+    "protein_g": 8,
+    "carbs_g": 12,
+    "fat_g": 8
+   },
+   {
+    "name_en": "Pumpkin puree",
+    "name_fa": "پوره کدو تنبل",
+    "amount": 45,
+    "unit": "ml",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 30,
+    "protein_g": 0.5,
+    "carbs_g": 6,
+    "fat_g": 0.1
+   },
+   {
+    "name_en": "Maple syrup",
+    "name_fa": "شربت افرا",
+    "amount": 15,
+    "unit": "ml",
+    "note_en": "or honey",
+    "note_fa": "یا عسل",
+    "kcal": 52,
+    "protein_g": 0,
+    "carbs_g": 13,
+    "fat_g": 0
+   },
+   {
+    "name_en": "Pumpkin pie spice",
+    "name_fa": "ادویه پای کدو",
+    "amount": 2,
+    "unit": "g",
+    "note_en": "cinnamon, nutmeg, ginger, cloves",
+    "note_fa": "ترکیبی از دارچین، جوز هندی، زنجبیل و میخک",
+    "kcal": 6,
+    "protein_g": 0.2,
+    "carbs_g": 1,
+    "fat_g": 0.1
+   },
+   {
+    "name_en": "Whipped cream",
+    "name_fa": "خامه زده شده",
+    "amount": 30,
+    "unit": "ml",
+    "note_en": "for topping",
+    "note_fa": "برای تزیین",
+    "kcal": 100,
+    "protein_g": 0.5,
+    "carbs_g": 1.5,
+    "fat_g": 10
+   }
+  ],
+  "steps_en": [
+   "Heat milk in a small saucepan over medium heat.",
+   "Whisk in pumpkin puree, maple syrup, and pumpkin pie spice until smooth.",
+   "Froth the mixture using a whisk or handheld frother.",
+   "Pour the espresso into a mug.",
+   "Pour the spiced milk over the espresso.",
+   "Top with whipped cream."
+  ],
+  "steps_fa": [
+   "شیر را در یک قابلمه کوچک روی حرارت متوسط گرم کنید.",
+   "پوره کدو، شربت افرا و ادویه پای کدو را اضافه کرده و هم بزنید تا یکدست شود.",
+   "مخلوط را با همزن دستی یا کف‌زن شیر بزنید تا کف کند.",
+   "اسپرسو را در ماگ بریزید.",
+   "شیر طعم‌دار شده را روی اسپرسو اضافه کنید.",
+   "روی نوشیدنی را با خامه زده شده تزیین کنید."
+  ],
+  "estimated": true,
+  "source_url": "https://www.shffls.com/shuffles/5451361950111937635"
+ },
+ "651192427417778939": {
+  "title_en": "Fresh Melon Ball Salad with Lime",
+  "title_fa": "سالاد توپک‌های میوه با آب لیموترش",
+  "category": "food",
+  "servings": 4,
+  "time_minutes": 20,
+  "ingredients": [
+   {
+    "name_en": "Watermelon",
+    "name_fa": "هندوانه",
+    "amount": 480,
+    "unit": "g",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 145,
+    "protein_g": 3,
+    "carbs_g": 37,
+    "fat_g": 1
+   },
+   {
+    "name_en": "Cantaloupe",
+    "name_fa": "طالبی",
+    "amount": 480,
+    "unit": "g",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 160,
+    "protein_g": 4,
+    "carbs_g": 40,
+    "fat_g": 1
+   },
+   {
+    "name_en": "Honeydew Melon",
+    "name_fa": "خربزه سبز",
+    "amount": 480,
+    "unit": "g",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 160,
+    "protein_g": 4,
+    "carbs_g": 40,
+    "fat_g": 1
+   },
+   {
+    "name_en": "Lime juice",
+    "name_fa": "آب لیموترش",
+    "amount": 30,
+    "unit": "ml",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 10,
+    "protein_g": 0,
+    "carbs_g": 2,
+    "fat_g": 0
+   },
+   {
+    "name_en": "Honey",
+    "name_fa": "عسل",
+    "amount": 15,
+    "unit": "ml",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 45,
+    "protein_g": 0,
+    "carbs_g": 12,
+    "fat_g": 0
+   },
+   {
+    "name_en": "Fresh mint leaves",
+    "name_fa": "برگ نعنای تازه",
+    "amount": 0,
+    "unit": "pinch",
+    "note_en": "chopped",
+    "note_fa": "خرد شده",
+    "kcal": 0,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 0
+   }
+  ],
+  "steps_en": [
+   "Use a melon baller to scoop out uniform spheres from the watermelon, cantaloupe, and honeydew melon.",
+   "Place all the melon balls into a large mixing bowl.",
+   "In a small bowl, whisk together lime juice and honey.",
+   "Drizzle the lime-honey dressing over the fruit.",
+   "Toss gently to coat the fruit without bruising the balls.",
+   "Garnish with chopped fresh mint and serve chilled."
+  ],
+  "steps_fa": [
+   "با استفاده از توپک‌زن میوه، از هندوانه، طالبی و خربزه سبز توپک‌های یک‌اندازه درست کنید.",
+   "تمام توپک‌های میوه را در یک کاسه بزرگ بریزید.",
+   "در یک ظرف کوچک، آب لیموترش و عسل را با هم مخلوط کنید.",
+   "سس لیمو و عسل را روی میوه‌ها بریزید.",
+   "میوه‌ها را به آرامی هم بزنید تا کاملاً به سس آغشته شوند.",
+   "در نهایت با نعنای خرد شده تزیین کرده و خنک سرو کنید."
+  ],
+  "estimated": true,
+  "source_url": null
+ },
+ "651192427417778896": {
+  "title_en": "Fruit Mini Tarts (No-Bake)",
+  "title_fa": "مینی تارت میوه‌ای (بدون پخت)",
+  "category": "dessert",
+  "servings": 6,
+  "time_minutes": 40,
+  "ingredients": [
+   {
+    "name_en": "Digestive biscuits",
+    "name_fa": "بیسکوی دایجستیو",
+    "amount": 200,
+    "unit": "g",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 890,
+    "protein_g": 16,
+    "carbs_g": 116,
+    "fat_g": 44
+   },
+   {
+    "name_en": "Melted butter",
+    "name_fa": "کره ذوب شده",
+    "amount": 60,
+    "unit": "g",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 430,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 48
+   },
+   {
+    "name_en": "Dark chocolate",
+    "name_fa": "شکلات تلخ",
+    "amount": 150,
+    "unit": "g",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 820,
+    "protein_g": 10,
+    "carbs_g": 58,
+    "fat_g": 54
+   },
+   {
+    "name_en": "Heavy cream",
+    "name_fa": "خامه قنادی",
+    "amount": 50,
+    "unit": "ml",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 170,
+    "protein_g": 2,
+    "carbs_g": 2,
+    "fat_g": 17
+   },
+   {
+    "name_en": "Raspberry jam",
+    "name_fa": "مربای تمشک",
+    "amount": 80,
+    "unit": "ml",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 200,
+    "protein_g": 1,
+    "carbs_g": 50,
+    "fat_g": 0
+   },
+   {
+    "name_en": "Fresh raspberries",
+    "name_fa": "تمشک تازه",
+    "amount": 100,
+    "unit": "g",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 52,
+    "protein_g": 1,
+    "carbs_g": 12,
+    "fat_g": 0
+   }
+  ],
+  "steps_en": [
+   "Crush the biscuits into fine crumbs.",
+   "Mix the crumbs with melted butter and press firmly into the bottom of mini tart molds.",
+   "Chill the crusts in the fridge for 15 minutes.",
+   "Spread a thin layer of raspberry jam over the chilled crusts.",
+   "Heat the cream and pour it over chopped chocolate, stir until smooth.",
+   "Pour the chocolate ganache over the jam layer.",
+   "Decorate with fresh raspberries and freeze for 20 minutes before serving."
+  ],
+  "steps_fa": [
+   "بیسکوی‌ها را کاملاً خرد کرده و پودر کنید.",
+   "پودر بیسکوی را با کره ذوب شده مخلوط کنید و کف قالب‌های مینی تارت را با آن پر کرده و فشار دهید.",
+   "قالب‌ها را به مدت ۱۵ دقیقه در یخچال قرار دهید.",
+   "لایه نازکی از مربای تمشک را روی کف تارت‌ها پخش کنید.",
+   "خامه را گرم کرده و روی شکلات‌های خرد شده بریزید و هم بزنید تا یکدست شود.",
+   "گاناش شکلات را روی لایه مربا بریزید.",
+   "در نهایت با تمشک تازه تزئین کرده و پیش از سرو ۲۰ دقیقه در فریزر قرار دهید."
+  ],
+  "estimated": true,
+  "source_url": null
+ },
+ "651192427417778882": {
+  "title_en": "Snickers Banana Bark",
+  "title_fa": "برک موز مدل اسنیکرز",
+  "category": "dessert",
+  "servings": 4,
+  "time_minutes": 195,
+  "ingredients": [
+   {
+    "name_en": "banana",
+    "name_fa": "موز",
+    "amount": 3,
+    "unit": "piece",
+    "note_en": "sliced",
+    "note_fa": "اسلایس شده",
+    "kcal": 315,
+    "protein_g": 3.9,
+    "carbs_g": 81,
+    "fat_g": 1.2
+   },
+   {
+    "name_en": "peanut butter",
+    "name_fa": "کره بادام زمینی",
+    "amount": 120,
+    "unit": "ml",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 720,
+    "protein_g": 30,
+    "carbs_g": 24,
+    "fat_g": 60
+   },
+   {
+    "name_en": "dark chocolate",
+    "name_fa": "شکلات تلخ",
+    "amount": 150,
+    "unit": "g",
+    "note_en": "melted",
+    "note_fa": "ذوب شده",
+    "kcal": 820,
+    "protein_g": 11,
+    "carbs_g": 55,
+    "fat_g": 55
+   },
+   {
+    "name_en": "peanuts",
+    "name_fa": "بادام زمینی",
+    "amount": 30,
+    "unit": "g",
+    "note_en": "chopped",
+    "note_fa": "خرد شده",
+    "kcal": 170,
+    "protein_g": 7.5,
+    "carbs_g": 5,
+    "fat_g": 14
+   },
+   {
+    "name_en": "sea salt",
+    "name_fa": "نمک دریا",
+    "amount": 0,
+    "unit": "pinch",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 0,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 0
+   }
+  ],
+  "steps_en": [
+   "Line a tray with parchment paper.",
+   "Arrange the sliced banana in a single layer on the tray.",
+   "Spread peanut butter evenly over the banana slices.",
+   "Drizzle melted chocolate over the peanut butter layer.",
+   "Sprinkle chopped peanuts and sea salt on top.",
+   "Freeze for 2 to 3 hours until firm.",
+   "Break into irregular pieces and serve frozen."
+  ],
+  "steps_fa": [
+   "یک سینی را با کاغذ روغنی بپوشانید.",
+   "ورقه‌های موز را به صورت یک لایه در سینی بچینید.",
+   "کره بادام زمینی را به‌طور یکنواخت روی موزها پخش کنید.",
+   "شکلات ذوب شده را روی لایه کره بادام زمینی بریزید.",
+   "بادام زمینی خرد شده و نمک دریا را روی آن بپاشید.",
+   "به مدت ۲ تا ۳ ساعت در فریزر قرار دهید تا کاملاً سفت شود.",
+   "دسر را به قطعات نامنظم تقسیم کرده و مستقیم از فریزر میل کنید."
+  ],
+  "estimated": true,
+  "source_url": "https://www.instagram.com/reel/DPWbdFOj3-J/"
+ },
+ "651192427417778714": {
+  "title_en": "Spicy Olive Oil Dip",
+  "title_fa": "دیپ زیتون تند و سیر",
+  "category": "food",
+  "servings": 4,
+  "time_minutes": 10,
+  "ingredients": [
+   {
+    "name_en": "Extra virgin olive oil",
+    "name_fa": "روغن زیتون بکر",
+    "amount": 120,
+    "unit": "ml",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 1040,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 115
+   },
+   {
+    "name_en": "Green olives",
+    "name_fa": "زیتون سبز",
+    "amount": 100,
+    "unit": "g",
+    "note_en": "sliced",
+    "note_fa": "حلقه‌شده",
+    "kcal": 115,
+    "protein_g": 1,
+    "carbs_g": 4,
+    "fat_g": 11
+   },
+   {
+    "name_en": "Sun-dried tomatoes",
+    "name_fa": "گوجه خشک",
+    "amount": 50,
+    "unit": "g",
+    "note_en": "finely chopped",
+    "note_fa": "نگینی خرد شده",
+    "kcal": 150,
+    "protein_g": 3,
+    "carbs_g": 12,
+    "fat_g": 8
+   },
+   {
+    "name_en": "Garlic",
+    "name_fa": "سیر",
+    "amount": 3,
+    "unit": "clove",
+    "note_en": "minced",
+    "note_fa": "له شده",
+    "kcal": 12,
+    "protein_g": 0.6,
+    "carbs_g": 3,
+    "fat_g": 0
+   },
+   {
+    "name_en": "Red chili flakes",
+    "name_fa": "پولببر یا پرک فلفل قرمز",
+    "amount": 5,
+    "unit": "ml",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 15,
+    "protein_g": 0.3,
+    "carbs_g": 2,
+    "fat_g": 0.5
+   },
+   {
+    "name_en": "Dried oregano",
+    "name_fa": "پودر پونه کوهی",
+    "amount": 5,
+    "unit": "ml",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 10,
+    "protein_g": 0.4,
+    "carbs_g": 2,
+    "fat_g": 0.1
+   },
+   {
+    "name_en": "Fresh parsley",
+    "name_fa": "جعفری تازه",
+    "amount": 10,
+    "unit": "g",
+    "note_en": "finely chopped",
+    "note_fa": "ساطوری شده",
+    "kcal": 4,
+    "protein_g": 0.3,
+    "carbs_g": 0.8,
+    "fat_g": 0
+   },
+   {
+    "name_en": "Salt",
+    "name_fa": "نمک",
+    "amount": 0,
+    "unit": "to_taste",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 0,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 0
+   }
+  ],
+  "steps_en": [
+   "Place the sliced olives and chopped sun-dried tomatoes in a shallow bowl.",
+   "Add the minced garlic, chili flakes, and dried oregano.",
+   "Pour the olive oil over the ingredients.",
+   "Stir in the fresh parsley.",
+   "Season with salt to taste and serve with toasted bread."
+  ],
+  "steps_fa": [
+   "زیتون‌های حلقه‌شده و گوجه‌های خشک خرد شده را در یک ظرف کم‌عمق بریزید.",
+   "سیر له شده، پرک فلفل قرمز و پودر پونه کوهی را اضافه کنید.",
+   "روغن زیتون را روی مواد بریزید.",
+   "جعفری ساطوری شده را اضافه کرده و هم بزنید.",
+   "در صورت نیاز نمک بزنید و همراه با نان تست یا باگت سرو کنید."
+  ],
+  "estimated": true,
+  "source_url": null
  }
 }
