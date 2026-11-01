@@ -5324,5 +5324,586 @@
   ],
   "estimated": true,
   "source_url": null
+ },
+ "651192427417028545": {
+  "title_en": "Morning Coffee Smoothie",
+  "title_fa": "اسموتی قهوه صبحگاهی",
+  "category": "drink",
+  "servings": 1,
+  "time_minutes": 5,
+  "ingredients": [
+   {
+    "name_en": "banana",
+    "name_fa": "موز",
+    "amount": 1,
+    "unit": "piece",
+    "note_en": "frozen and sliced",
+    "note_fa": "منجمد و برش خورده",
+    "kcal": 105,
+    "protein_g": 1.3,
+    "carbs_g": 27,
+    "fat_g": 0.4
+   },
+   {
+    "name_en": "strong brewed coffee",
+    "name_fa": "قهوه دم‌کرده غلیظ",
+    "amount": 120,
+    "unit": "ml",
+    "note_en": "chilled",
+    "note_fa": "سرد شده",
+    "kcal": 2,
+    "protein_g": 0.3,
+    "carbs_g": 0,
+    "fat_g": 0
+   },
+   {
+    "name_en": "almond milk",
+    "name_fa": "شیر بادام",
+    "amount": 120,
+    "unit": "ml",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 20,
+    "protein_g": 0.6,
+    "carbs_g": 0.6,
+    "fat_g": 1.5
+   },
+   {
+    "name_en": "rolled oats",
+    "name_fa": "جو دوسر پرک",
+    "amount": 60,
+    "unit": "ml",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 30,
+    "protein_g": 1.2,
+    "carbs_g": 6,
+    "fat_g": 0.4
+   },
+   {
+    "name_en": "nut butter",
+    "name_fa": "کره بادام یا کره بادام‌زمینی",
+    "amount": 15,
+    "unit": "g",
+    "note_en": "optional",
+    "note_fa": "اختیاری",
+    "kcal": 90,
+    "protein_g": 3.5,
+    "carbs_g": 3,
+    "fat_g": 7.5
+   }
+  ],
+  "steps_en": [
+   "Place the frozen banana slices into a blender.",
+   "Add the brewed coffee, almond milk, and rolled oats.",
+   "Add the nut butter if using.",
+   "Blend until completely smooth and creamy.",
+   "Pour into a glass and garnish with coffee beans or banana slices if desired."
+  ],
+  "steps_fa": [
+   "برش‌های موز منجمد را داخل مخلوط‌کن بریزید.",
+   "قهوه دم‌کرده، شیر بادام و جو دوسر را اضافه کنید.",
+   "در صورت تمایل، کره بادام یا کره بادام‌زمینی را اضافه کنید.",
+   "مواد را تا زمانی که کاملاً یکدست و کرمی شوند مخلوط کنید.",
+   "اسموتی را در لیوان ریخته و در صورت تمایل با دانه قهوه یا برش موز تزیین کنید."
+  ],
+  "estimated": true,
+  "source_url": null
+ },
+ "651192427416914660": {
+  "title_en": "Strawberry Overnight Oats",
+  "title_fa": "اوتمیل شبانه توت فرنگی",
+  "category": "food",
+  "servings": 1,
+  "time_minutes": 0,
+  "ingredients": [
+   {
+    "name_en": "rolled oats",
+    "name_fa": "جو دوسر پرک",
+    "amount": 45,
+    "unit": "g",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 170,
+    "protein_g": 6,
+    "carbs_g": 30,
+    "fat_g": 3
+   },
+   {
+    "name_en": "milk",
+    "name_fa": "شیر",
+    "amount": 120,
+    "unit": "ml",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 70,
+    "protein_g": 4,
+    "carbs_g": 6,
+    "fat_g": 4
+   },
+   {
+    "name_en": "strawberries",
+    "name_fa": "توت فرنگی",
+    "amount": 60,
+    "unit": "g",
+    "note_en": "diced",
+    "note_fa": "نگینی شده",
+    "kcal": 20,
+    "protein_g": 0.5,
+    "carbs_g": 5,
+    "fat_g": 0
+   },
+   {
+    "name_en": "chia seeds",
+    "name_fa": "دانه چیا",
+    "amount": 10,
+    "unit": "g",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 50,
+    "protein_g": 2,
+    "carbs_g": 4,
+    "fat_g": 3
+   }
+  ],
+  "steps_en": [
+   "Combine oats, milk, and chia seeds in a jar.",
+   "Stir in the diced strawberries.",
+   "Seal the jar and refrigerate overnight or for at least 6 hours.",
+   "Stir again before serving."
+  ],
+  "steps_fa": [
+   "جو دوسر، شیر و دانه چیا را در یک ظرف درب‌دار مخلوط کنید.",
+   "توت فرنگی‌های نگینی شده را به مواد اضافه کرده و هم بزنید.",
+   "درب ظرف را بسته و به مدت یک شب یا حداقل ۶ ساعت در یخچال قرار دهید.",
+   "قبل از سرو، یک بار دیگر مواد را هم بزنید."
+  ],
+  "estimated": true,
+  "source_url": null
+ },
+ "651192427416914630": {
+  "title_en": "S'mores Charcuterie Board",
+  "title_fa": "پلاتر دسر اسمورز",
+  "category": "dessert",
+  "servings": 6,
+  "time_minutes": 15,
+  "ingredients": [
+   {
+    "name_en": "graham crackers",
+    "name_fa": "بیسکوییت دایجستیو",
+    "amount": 200,
+    "unit": "g",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 970,
+    "protein_g": 16,
+    "carbs_g": 150,
+    "fat_g": 35
+   },
+   {
+    "name_en": "dark chocolate squares",
+    "name_fa": "شکلات تخته‌ای تلخ",
+    "amount": 150,
+    "unit": "g",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 820,
+    "protein_g": 10,
+    "carbs_g": 70,
+    "fat_g": 55
+   },
+   {
+    "name_en": "marshmallows",
+    "name_fa": "مارشملو",
+    "amount": 100,
+    "unit": "g",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 320,
+    "protein_g": 4,
+    "carbs_g": 75,
+    "fat_g": 1
+   },
+   {
+    "name_en": "strawberries",
+    "name_fa": "توت فرنگی",
+    "amount": 250,
+    "unit": "g",
+    "note_en": "washed and hulled",
+    "note_fa": "شسته‌شده و پاک‌شده",
+    "kcal": 160,
+    "protein_g": 5,
+    "carbs_g": 38,
+    "fat_g": 1
+   },
+   {
+    "name_en": "banana",
+    "name_fa": "موز",
+    "amount": 2,
+    "unit": "piece",
+    "note_en": "sliced",
+    "note_fa": "سلایس شده",
+    "kcal": 210,
+    "protein_g": 2,
+    "carbs_g": 54,
+    "fat_g": 1
+   },
+   {
+    "name_en": "apple slices",
+    "name_fa": "سیب",
+    "amount": 1,
+    "unit": "piece",
+    "note_en": "sliced",
+    "note_fa": "اسلایس شده",
+    "kcal": 95,
+    "protein_g": 0,
+    "carbs_g": 25,
+    "fat_g": 0
+   },
+   {
+    "name_en": "chocolate hazelnut spread",
+    "name_fa": "نوتلا یا کره شکلاتی",
+    "amount": 120,
+    "unit": "ml",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 650,
+    "protein_g": 6,
+    "carbs_g": 60,
+    "fat_g": 40
+   },
+   {
+    "name_en": "peanut butter",
+    "name_fa": "کره بادام زمینی",
+    "amount": 120,
+    "unit": "ml",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 720,
+    "protein_g": 30,
+    "carbs_g": 24,
+    "fat_g": 60
+   },
+   {
+    "name_en": "chocolate covered pretzels",
+    "name_fa": "پرتزل شکلاتی",
+    "amount": 100,
+    "unit": "g",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 450,
+    "protein_g": 6,
+    "carbs_g": 60,
+    "fat_g": 20
+   },
+   {
+    "name_en": "coconut chocolate bites",
+    "name_fa": "شکلات نارگیلی",
+    "amount": 100,
+    "unit": "g",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 520,
+    "protein_g": 5,
+    "carbs_g": 50,
+    "fat_g": 30
+   }
+  ],
+  "steps_en": [
+   "Arrange the biscuits and crackers on the edges of a large marble or wooden platter.",
+   "Place the chocolate squares and coconut bites in separate clusters.",
+   "Add piles of marshmallows, sliced bananas, strawberries, and apple slices in the center.",
+   "Pour the chocolate hazelnut spread and peanut butter into two small ramekins and place them centrally.",
+   "Scatter the chocolate covered pretzels in the remaining open spaces."
+  ],
+  "steps_fa": [
+   "بیسکوییت‌ها را در لبه‌های یک سینی بزرگ سنگی یا چوبی بچینید.",
+   "تکه‌های شکلات تخته‌ای و شکلات‌های نارگیلی را در دسته‌های جداگانه قرار دهید.",
+   "مارشملوها، موزهای اسلایس شده، توت فرنگی‌ها و سیب‌ها را در مرکز سینی بچینید.",
+   "کره شکلاتی و کره بادام زمینی را در دو ظرف کوچک بریزید و در وسط سینی قرار دهید.",
+   "پرتزل‌های شکلاتی را در فضای خالی باقی‌مانده پخش کنید."
+  ],
+  "estimated": true,
+  "source_url": "https://sites.google.com/view/quickrecipescollection/recipes/smores-charcuterie-board/"
+ },
+ "651192427414588165": {
+  "title_en": "Homemade Fudgy Brownies",
+  "title_fa": "برانی خانگی شکلاتی و شکلاتی",
+  "category": "dessert",
+  "servings": 15,
+  "time_minutes": 37,
+  "ingredients": [
+   {
+    "name_en": "unsalted butter",
+    "name_fa": "کره بدون نمک",
+    "amount": 226,
+    "unit": "g",
+    "note_en": "melted",
+    "note_fa": "ذوب‌شده",
+    "kcal": 1630,
+    "protein_g": 20,
+    "carbs_g": 0,
+    "fat_g": 182
+   },
+   {
+    "name_en": "granulated white sugar",
+    "name_fa": "شکر سفید",
+    "amount": 240,
+    "unit": "ml",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 960,
+    "protein_g": 0,
+    "carbs_g": 250,
+    "fat_g": 0
+   },
+   {
+    "name_en": "brown sugar",
+    "name_fa": "شکر قهوه‌ای",
+    "amount": 240,
+    "unit": "ml",
+    "note_en": "packed",
+    "note_fa": "فشرده",
+    "kcal": 930,
+    "protein_g": 0,
+    "carbs_g": 240,
+    "fat_g": 0
+   },
+   {
+    "name_en": "eggs",
+    "name_fa": "تخم‌مرغ",
+    "amount": 4,
+    "unit": "piece",
+    "note_en": "large",
+    "note_fa": "بزرگ",
+    "kcal": 280,
+    "protein_g": 24,
+    "carbs_g": 2,
+    "fat_g": 20
+   },
+   {
+    "name_en": "vanilla extract",
+    "name_fa": "عصاره وانیل",
+    "amount": 10,
+    "unit": "ml",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 35,
+    "protein_g": 0,
+    "carbs_g": 3,
+    "fat_g": 0
+   },
+   {
+    "name_en": "all-purpose flour",
+    "name_fa": "آرد سفید",
+    "amount": 240,
+    "unit": "ml",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 340,
+    "protein_g": 10,
+    "carbs_g": 72,
+    "fat_g": 1
+   },
+   {
+    "name_en": "cocoa powder",
+    "name_fa": "پودر کاکائو",
+    "amount": 240,
+    "unit": "ml",
+    "note_en": "unsweetened",
+    "note_fa": "تلخ",
+    "kcal": 580,
+    "protein_g": 48,
+    "carbs_g": 110,
+    "fat_g": 24
+   },
+   {
+    "name_en": "salt",
+    "name_fa": "نمک",
+    "amount": 5,
+    "unit": "ml",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 0,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 0
+   },
+   {
+    "name_en": "chocolate bars",
+    "name_fa": "شکلات تخته‌ای",
+    "amount": 300,
+    "unit": "g",
+    "note_en": "chopped",
+    "note_fa": "خرد شده",
+    "kcal": 1650,
+    "protein_g": 20,
+    "carbs_g": 160,
+    "fat_g": 110
+   }
+  ],
+  "steps_en": [
+   "Preheat the oven to 175°C and line a 23x33 cm baking pan with parchment paper.",
+   "In a large bowl, whisk melted butter, white sugar, brown sugar, eggs, and vanilla for about 1 minute.",
+   "Sift in the flour, cocoa powder, and salt, then stir just until combined.",
+   "Fold in a portion of the chopped chocolate.",
+   "Pour batter into the pan and sprinkle the remaining chocolate on top.",
+   "Bake for 23-30 minutes until the center is just set and a toothpick comes out with a few crumbs.",
+   "Cool in the pan for 20 minutes, then transfer to a wire rack to cool completely before cutting into 15 bars."
+  ],
+  "steps_fa": [
+   "فر را روی ۱۷۵ درجه سانتی‌گراد گرم کنید و کف قالب ۲۳ در ۳۳ سانتی‌متری را با کاغذ روغنی بپوشانید.",
+   "در یک کاسه بزرگ، کره ذوب‌شده، شکر سفید، شکر قهوه‌ای، تخم‌مرغ‌ها و وانیل را حدود یک دقیقه هم بزنید.",
+   "آرد، پودر کاکائو و نمک را الک کرده و به مواد اضافه کنید و در حد مخلوط شدن هم بزنید.",
+   "بخشی از شکلات‌های خرد شده را به مایه اضافه کرده و مخلوط کنید.",
+   "مایه را در قالب بریزید و باقی‌مانده شکلات‌ها را روی سطح آن پخش کنید.",
+   "به مدت ۲۳ تا ۳۰ دقیقه در فر بپزید تا زمانی که مرکز آن دیگر تکان نخورد و خلال دندان با چند خرده شکلات بیرون بیاید.",
+   "۲۰ دقیقه در قالب بگذارید تا خنک شود، سپس روی توری منتقل کرده و پس از خنک شدن کامل به ۱۵ تکه تقسیم کنید."
+  ],
+  "estimated": false,
+  "source_url": "https://www.alsothecrumbsplease.com/homemade-brownie-recipe-from-scratch/"
+ },
+ "651192427414587037": {
+  "title_en": "Banana Cream Tart with Cocoa Dusting",
+  "title_fa": "تارت کرم موز با پودر کاکائو",
+  "category": "dessert",
+  "servings": 8,
+  "time_minutes": 60,
+  "ingredients": [
+   {
+    "name_en": "all-purpose flour",
+    "name_fa": "آرد سفید",
+    "amount": 240,
+    "unit": "ml",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 340,
+    "protein_g": 10,
+    "carbs_g": 72,
+    "fat_g": 1
+   },
+   {
+    "name_en": "unsalted butter",
+    "name_fa": "کره بدون نمک",
+    "amount": 113,
+    "unit": "g",
+    "note_en": "cold, cubed",
+    "note_fa": "سرد و خرد شده",
+    "kcal": 810,
+    "protein_g": 1,
+    "carbs_g": 0,
+    "fat_g": 90
+   },
+   {
+    "name_en": "powdered sugar",
+    "name_fa": "پودر قند",
+    "amount": 60,
+    "unit": "ml",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 230,
+    "protein_g": 0,
+    "carbs_g": 60,
+    "fat_g": 0
+   },
+   {
+    "name_en": "egg",
+    "name_fa": "تخم مرغ",
+    "amount": 1,
+    "unit": "piece",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 70,
+    "protein_g": 6,
+    "carbs_g": 0,
+    "fat_g": 5
+   },
+   {
+    "name_en": "heavy cream",
+    "name_fa": "خامه قنادی",
+    "amount": 480,
+    "unit": "ml",
+    "note_en": "chilled",
+    "note_fa": "سرد",
+    "kcal": 1700,
+    "protein_g": 12,
+    "carbs_g": 15,
+    "fat_g": 180
+   },
+   {
+    "name_en": "powdered sugar (for cream)",
+    "name_fa": "پودر قند (برای خامه)",
+    "amount": 120,
+    "unit": "ml",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 460,
+    "protein_g": 0,
+    "carbs_g": 120,
+    "fat_g": 0
+   },
+   {
+    "name_en": "vanilla extract",
+    "name_fa": "عصاره وانیل",
+    "amount": 5,
+    "unit": "ml",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 12,
+    "protein_g": 0,
+    "carbs_g": 1,
+    "fat_g": 0
+   },
+   {
+    "name_en": "bananas",
+    "name_fa": "موز",
+    "amount": 3,
+    "unit": "piece",
+    "note_en": "sliced",
+    "note_fa": "ورقه شده",
+    "kcal": 315,
+    "protein_g": 3,
+    "carbs_g": 81,
+    "fat_g": 1
+   },
+   {
+    "name_en": "cocoa powder",
+    "name_fa": "پودر کاکائو",
+    "amount": 15,
+    "unit": "g",
+    "note_en": "for dusting",
+    "note_fa": "برای پاشیدن روی دسر",
+    "kcal": 30,
+    "protein_g": 3,
+    "carbs_g": 8,
+    "fat_g": 2
+   }
+  ],
+  "steps_en": [
+   "Mix flour and powdered sugar in a bowl.",
+   "Cut in cold butter until the mixture resembles coarse crumbs.",
+   "Add the egg and mix until a dough forms.",
+   "Press dough into a 23cm tart pan and bake at 180°C for 15-20 minutes until golden. Let it cool completely.",
+   "Whip chilled heavy cream with powdered sugar and vanilla until stiff peaks form.",
+   "Spread a layer of whipped cream into the cooled tart shell.",
+   "Arrange sliced bananas on top of the cream layer.",
+   "Cover the bananas with the remaining whipped cream, smoothing the top.",
+   "Dust the surface generously with cocoa powder using a sieve.",
+   "Refrigerate for at least 2 hours before serving."
+  ],
+  "steps_fa": [
+   "آرد و پودر قند را در یک کاسه مخلوط کنید.",
+   "کره سرد را به مواد اضافه کرده و با چنگال یا غذاساز هم بزنید تا بافتی شبیه به شن پیدا کند.",
+   "تخم مرغ را اضافه کرده و ورز دهید تا خمیر جمع شود.",
+   "خمیر را در قالب تارت ۲۳ سانتی‌متری پهن کنید و در دمای ۱۸۰ درجه سانتی‌گراد به مدت ۱۵ تا ۲۰ دقیقه بپزید تا طلایی شود. اجازه دهید کاملاً خنک شود.",
+   "خامه سرد را با پودر قند و وانیل بزنید تا کاملاً سفت شود.",
+   "یک لایه از خامه را کف تارت خنک شده پخش کنید.",
+   "ورقه‌های موز را روی لایه خامه بچینید.",
+   "باقی‌مانده خامه را روی موزها بریزید و سطح آن را صاف کنید.",
+   "با استفاده از الک، پودر کاکائو را روی سطح دسر بپاشید.",
+   "دسر را حداقل ۲ ساعت در یخچال قرار دهید و سپس سرو کنید."
+  ],
+  "estimated": true,
+  "source_url": "https://bestdessertrecipe.com/"
  }
 }
