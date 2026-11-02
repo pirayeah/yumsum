@@ -6812,5 +6812,102 @@
   ],
   "estimated": true,
   "source_url": null
+ },
+ "651192427418854701": {
+  "title_en": "Healthy Nutella",
+  "title_fa": "نوتلای خانگی و سالم",
+  "category": "dessert",
+  "servings": 10,
+  "time_minutes": 20,
+  "ingredients": [
+   {
+    "name_en": "Hazelnuts",
+    "name_fa": "فندق",
+    "amount": 480,
+    "unit": "ml",
+    "note_en": "roasted",
+    "note_fa": "رست شده",
+    "kcal": 3100,
+    "protein_g": 65,
+    "carbs_g": 60,
+    "fat_g": 260
+   },
+   {
+    "name_en": "Cocoa Powder",
+    "name_fa": "پودر کاکائو",
+    "amount": 30,
+    "unit": "ml",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 70,
+    "protein_g": 6,
+    "carbs_g": 15,
+    "fat_g": 4
+   },
+   {
+    "name_en": "Pure Maple Syrup",
+    "name_fa": "شربت افرا",
+    "amount": 30,
+    "unit": "ml",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 104,
+    "protein_g": 0,
+    "carbs_g": 26,
+    "fat_g": 0
+   },
+   {
+    "name_en": "Coconut Oil",
+    "name_fa": "روغن نارگیل",
+    "amount": 30,
+    "unit": "ml",
+    "note_en": "melted",
+    "note_fa": "ذوب شده",
+    "kcal": 250,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 28
+   },
+   {
+    "name_en": "Vanilla Extract",
+    "name_fa": "عصاره وانیل",
+    "amount": 5,
+    "unit": "ml",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 12,
+    "protein_g": 0,
+    "carbs_g": 1,
+    "fat_g": 0
+   },
+   {
+    "name_en": "Sea Salt",
+    "name_fa": "نمک دریا",
+    "amount": 2.5,
+    "unit": "ml",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 0,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 0
+   }
+  ],
+  "steps_en": [
+   "Place roasted hazelnuts in a food processor.",
+   "Blend until a smooth butter forms.",
+   "Add cocoa powder, maple syrup, coconut oil, vanilla extract, and sea salt.",
+   "Process again until the mixture is creamy and well combined.",
+   "Transfer to a glass jar and store in the refrigerator."
+  ],
+  "steps_fa": [
+   "فندق‌های رست شده را در غذاساز بریزید.",
+   "آن‌ها را تا زمانی که تبدیل به کره نرم و یکدست شوند، میکس کنید.",
+   "پودر کاکائو، شربت افرا، روغن نارگیل، عصاره وانیل و نمک دریا را اضافه کنید.",
+   "دوباره دستگاه را روشن کنید تا مواد کاملاً با هم ترکیب شده و بافتی کرمی پیدا کنند.",
+   "مخلوط را در یک ظرف شیشه‌ای ریخته و در یخچال نگهداری کنید."
+  ],
+  "estimated": true,
+  "source_url": null
  }
 }
