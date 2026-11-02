@@ -6661,5 +6661,156 @@
   ],
   "estimated": true,
   "source_url": null
+ },
+ "651192427414447479": {
+  "title_en": "Korean Kimchi",
+  "title_fa": "کیمچی کره‌ای",
+  "category": "food",
+  "servings": 6,
+  "time_minutes": 1440,
+  "ingredients": [
+   {
+    "name_en": "Napa cabbage",
+    "name_fa": "کلم چینی",
+    "amount": 1000,
+    "unit": "g",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 125,
+    "protein_g": 13,
+    "carbs_g": 28,
+    "fat_g": 1
+   },
+   {
+    "name_en": "Coarse sea salt",
+    "name_fa": "نمک دانه درشت",
+    "amount": 45,
+    "unit": "g",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 0,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 0
+   },
+   {
+    "name_en": "Water",
+    "name_fa": "آب",
+    "amount": 500,
+    "unit": "ml",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 0,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 0
+   },
+   {
+    "name_en": "Gochugaru (Korean red chili powder)",
+    "name_fa": "پودر فلفل قرمز کره‌ای",
+    "amount": 60,
+    "unit": "ml",
+    "note_en": "can be replaced with mild paprika and chili flakes",
+    "note_fa": "می‌توان از پودر پاپریکا و فلفل قرمز معمولی استفاده کرد",
+    "kcal": 180,
+    "protein_g": 8,
+    "carbs_g": 30,
+    "fat_g": 4
+   },
+   {
+    "name_en": "Fish sauce",
+    "name_fa": "سس ماهی",
+    "amount": 45,
+    "unit": "ml",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 35,
+    "protein_g": 6,
+    "carbs_g": 1,
+    "fat_g": 0
+   },
+   {
+    "name_en": "Sugar",
+    "name_fa": "شکر",
+    "amount": 15,
+    "unit": "ml",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 60,
+    "protein_g": 0,
+    "carbs_g": 15,
+    "fat_g": 0
+   },
+   {
+    "name_en": "Garlic",
+    "name_fa": "سیر",
+    "amount": 4,
+    "unit": "clove",
+    "note_en": "minced",
+    "note_fa": "له شده",
+    "kcal": 16,
+    "protein_g": 1,
+    "carbs_g": 4,
+    "fat_g": 0
+   },
+   {
+    "name_en": "Ginger",
+    "name_fa": "زنجبیل",
+    "amount": 5,
+    "unit": "g",
+    "note_en": "grated",
+    "note_fa": "رنده شده",
+    "kcal": 4,
+    "protein_g": 0,
+    "carbs_g": 1,
+    "fat_g": 0
+   },
+   {
+    "name_en": "Green onion",
+    "name_fa": "پیازچه",
+    "amount": 3,
+    "unit": "piece",
+    "note_en": "sliced",
+    "note_fa": "خرد شده",
+    "kcal": 30,
+    "protein_g": 2,
+    "carbs_g": 6,
+    "fat_g": 0
+   },
+   {
+    "name_en": "Carrot",
+    "name_fa": "هویج",
+    "amount": 100,
+    "unit": "g",
+    "note_en": "julienned",
+    "note_fa": "خلال شده",
+    "kcal": 41,
+    "protein_g": 1,
+    "carbs_g": 10,
+    "fat_g": 0
+   }
+  ],
+  "steps_en": [
+   "Cut the cabbage into bite-sized pieces and toss with salt in a large bowl.",
+   "Let the cabbage sit for 2 hours, tossing occasionally, until wilted.",
+   "Rinse the cabbage thoroughly under cold water 3 times to remove excess salt and drain.",
+   "In a small bowl, mix red chili powder, fish sauce, sugar, minced garlic, and grated ginger to make the paste.",
+   "Add julienned carrots and sliced green onions to the paste and mix well.",
+   "Combine the drained cabbage with the spice paste, massaging it in by hand until every piece is coated.",
+   "Transfer the mixture to an airtight glass jar, pressing down to remove air bubbles.",
+   "Let it ferment at room temperature for 24 hours before moving it to the refrigerator."
+  ],
+  "steps_fa": [
+   "کلم چینی را به قطعات کوچک تقسیم کرده و در یک کاسه بزرگ با نمک مخلوط کنید.",
+   "اجازه دهید کلم به مدت ۲ ساعت بماند و هر از گاهی آن را هم بزنید تا نرم شود.",
+   "کلم را ۳ بار با آب سرد بشویید تا نمک اضافی گرفته شود و سپس آبکش کنید.",
+   "در یک کاسه کوچک، پودر فلفل قرمز، سس ماهی، شکر، سیر له شده و زنجبیل رنده شده را مخلوط کنید تا خمیر سس آماده شود.",
+   "هویج‌های خلال شده و پیازچه خرد شده را به سس اضافه کرده و خوب مخلوط کنید.",
+   "کلم آبکش شده را به سس اضافه کنید و با دست ماساژ دهید تا تمام قسمت‌های کلم به سس آغشته شود.",
+   "مخلوط را در یک ظرف شیشه‌ای دربسته بریزید و فشار دهید تا حباب‌های هوا خارج شوند.",
+   "اجازه دهید ظرف ۲۴ ساعت در دمای محیط بماند تا تخمیر شود، سپس آن را به یخچال منتقل کنید."
+  ],
+  "estimated": true,
+  "source_url": null
  }
 }
