@@ -6546,5 +6546,120 @@
   ],
   "estimated": true,
   "source_url": "https://www.avanashop.de/products/schokoladenform-aus-silikon-extra-tief-im-2er-set"
+ },
+ "651192427414454741": {
+  "title_en": "Mini Classic Cheesecake",
+  "title_fa": "مینی چیزکیک کلاسیک",
+  "category": "dessert",
+  "servings": 12,
+  "time_minutes": 360,
+  "ingredients": [
+   {
+    "name_en": "graham cracker crumbs",
+    "name_fa": "پودر بیسکوییت دندانه دار",
+    "amount": 240,
+    "unit": "ml",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 1100,
+    "protein_g": 12,
+    "carbs_g": 180,
+    "fat_g": 40
+   },
+   {
+    "name_en": "granulated sugar",
+    "name_fa": "شکر",
+    "amount": 30,
+    "unit": "ml",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 115,
+    "protein_g": 0,
+    "carbs_g": 30,
+    "fat_g": 0
+   },
+   {
+    "name_en": "salted butter",
+    "name_fa": "کره نمک‌دار",
+    "amount": 60,
+    "unit": "ml",
+    "note_en": "melted",
+    "note_fa": "ذوب شده",
+    "kcal": 430,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 48
+   },
+   {
+    "name_en": "cream cheese",
+    "name_fa": "پنیر خامه‌ای یا خامه قنادی",
+    "amount": 454,
+    "unit": "g",
+    "note_en": "softened",
+    "note_fa": "نرم شده",
+    "kcal": 1600,
+    "protein_g": 30,
+    "carbs_g": 30,
+    "fat_g": 150
+   },
+   {
+    "name_en": "sour cream",
+    "name_fa": "ساور کریم (خامه ترش)",
+    "amount": 120,
+    "unit": "ml",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 200,
+    "protein_g": 4,
+    "carbs_g": 6,
+    "fat_g": 20
+   },
+   {
+    "name_en": "large eggs",
+    "name_fa": "تخم مرغ بزرگ",
+    "amount": 2,
+    "unit": "piece",
+    "note_en": "",
+    "note_fa": "",
+    "kcal": 140,
+    "protein_g": 12,
+    "carbs_g": 1,
+    "fat_g": 10
+   },
+   {
+    "name_en": "canned pie filling",
+    "name_fa": "پوره میوه‌ای کنسروی (مربای غلیظ)",
+    "amount": 240,
+    "unit": "ml",
+    "note_en": "strawberry or cherry",
+    "note_fa": "توت فرنگی یا آلبالو",
+    "kcal": 300,
+    "protein_g": 2,
+    "carbs_g": 60,
+    "fat_g": 0
+   }
+  ],
+  "steps_en": [
+   "Mix cracker crumbs, sugar, and melted butter together.",
+   "Press the mixture into the bottom of mini cheesecake pans.",
+   "Beat cream cheese until smooth.",
+   "Add sour cream and eggs, mixing until combined.",
+   "Pour the filling over the crusts.",
+   "Bake at 160°C until edges are set.",
+   "Cool completely in the fridge.",
+   "Top with pie filling before serving."
+  ],
+  "steps_fa": [
+   "پودر بیسکوییت، شکر و کره ذوب شده را با هم مخلوط کنید.",
+   "مخلوط را در کف قالب‌های مینی چیزکیک فشار دهید تا سفت شود.",
+   "پنیر خامه‌ای را بزنید تا نرم و یکدست شود.",
+   "ساور کریم و تخم مرغ‌ها را اضافه کرده و هم بزنید تا ترکیب شوند.",
+   "مایه چیزکیک را روی لایه بیسکوییت بریزید.",
+   "در دمای ۱۶۰ درجه سانتی‌گراد قرار دهید تا لبه‌ها خودشاز شوند.",
+   "بگذارید در یخچال کاملاً خنک شود.",
+   "قبل از سرو، پوره میوه‌ای را روی هر کدام بریزید."
+  ],
+  "estimated": true,
+  "source_url": null
  }
 }
